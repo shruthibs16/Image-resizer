@@ -1,0 +1,31 @@
+{
+  "name": "Image-resizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shruthibs16/Image-resizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shruthibs16/Image-resizer/issues"
+  },
+  "dependencies": {
+    "@okta/jwt-verifier": "^1.0.0",
+    "@okta/oidc-middleware": "^4.0.1",
+    "@okta/okta-sdk-nodejs": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "sharp": "^0.26.1"
+  },
+  "homepage": "https://github.com/shruthibs16/Image-resizer#readme"
+}

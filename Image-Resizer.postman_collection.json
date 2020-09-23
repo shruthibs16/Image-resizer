@@ -1,0 +1,101 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Image-Resizer",
+		"_postman_id": "c716459a-24db-40a5-21f2-82db0b15741d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get-Api",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8000/imageResizer?format=png&width=300&height=300",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"imageResizer"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "png",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "width",
+							"value": "300",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "height",
+							"value": "300",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Api with authorization",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/authorize?format=png&width=100&height=100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "png",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "width",
+							"value": "100",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "height",
+							"value": "100",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 009YZ34ofPBq46Ym9I00hPIxFtSZaXqmpRJhYhvUvl",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
